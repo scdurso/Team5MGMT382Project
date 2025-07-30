@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Eloheh Management Team</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 30px;
+      background-color: #f9f9f9;
+    }
+    h1, h2 {
+      color: #2c3e50;
+      font-family: 'Georgia', serif;
+    }
+    .team-member {
+      margin-bottom: 20px;
+    }
+    .highlight {
+      color: #2980b9;
+      font-size: 18px;
+    }
+    .special {
+      color: #8e44ad;
+      font-size: 16px;
+      font-family: 'Courier New', monospace;
+    }
+    a {
+      color: #e67e22;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Eloheh Management Team</h1>
+  <p><b>Welcome to the heart of Eloheh.</b> We are a values-driven company committed to sustainability, equity, and innovation. Our leadership team is composed of passionate professionals who believe in <i>integrity</i>, <u>community</u>, and long-term impact.</p>
+
+  <div class="team-member">
+    <h2>Dr. Randy Woodley - Co-Founder</h2>
+    <img src="https://via.placeholder.com/200x150" alt="Randy Woodley" width="200">
+    <p class="highlight"><b><i>Visionary. Leader. Author.</i></b></p>
+    <p>Dr. Woodley brings <u>decades</u> of experience in Native American wisdom, theology, and community development. He guides Eloheh with <span class="special">deep values</span> and an unshakable commitment to Indigen
