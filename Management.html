@@ -1,51 +1,169 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Eloheh Management Team</title>
+  <title>Eloheh Leadership Team</title>
   <style>
     body {
-      font-family: 'Arial', sans-serif;
-      margin: 30px;
-      background-color: #f9f9f9;
-    }
-    h1, h2 {
-      color: #2c3e50;
-      font-family: 'Georgia', serif;
-    }
-    .team-member {
-      margin-bottom: 20px;
-    }
-    .highlight {
-      color: #2980b9;
-      font-size: 18px;
-    }
-    .special {
-      color: #8e44ad;
+      background-color: LightGray;
       font-size: 16px;
-      font-family: 'Courier New', monospace;
+      font-family: sans-serif;
     }
-    a {
-      color: #e67e22;
+    h1 {
+      font-family: Garamond, serif;
+      text-align: center;
+      color: blue;
+      font-size: 36px;
+    }
+    h2 {
+      font-family: Garamond, serif;
+      font-size: 24px;
+      color: teal;
+    }
+    h3 {
+      font-family: Garamond, serif;
+      font-size: 20px;
+      color: blue;
+    }
+    p, li, a, ol, ul {
+      font-family: sans-serif;
+      font-size: 16px;
+    }
+    .manager-card {
+      background-color: white;
+      border: 2px solid teal;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .manager-photo {
+      float: left;
+      margin-right: 20px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+    }
+    .contact-link {
+      color: blue;
       text-decoration: none;
+      font-weight: bold;
     }
-    a:hover {
+    .contact-link:hover {
       text-decoration: underline;
     }
-    footer {
-      margin-top: 30px;
-      font-size: 14px;
-      color: #555;
+    .leadership-traits {
+      background-color: #f0f8ff;
+      padding: 20px;
+      border-left: 4px solid teal;
+      margin: 20px 0;
+    }
+    .skills-section {
+      background-color: #f5f5f5;
+      padding: 20px;
+      border-left: 4px solid blue;
+      margin: 20px 0;
+    }
+    .download-section {
+      text-align: center;
+      margin: 30px 0;
+      padding: 20px;
+      background-color: #e6f3ff;
+      border-radius: 5px;
+    }
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
     }
   </style>
 </head>
+
 <body>
+  <!-- Page Header -->
+  <h1>Eloheh Leadership Team</h1>
+  
+  <p style="text-align: center; font-size: 18px; color: teal;">
+    <i>Meet the visionary leaders driving healthcare innovation at Eloheh</i>
+  </p>
 
-  <h1>Eloheh Management Team</h1>
-  <p><b>Welcome to the heart of Eloheh.</b> We are a values-driven company committed to sustainability, equity, and innovation. Our leadership team is composed of passionate professionals who believe in <i>integrity</i>, <u>community</u>, and long-term impact.</p>
+  <!-- Manager 1: Black Female Manager -->
+  <div class="manager-card clearfix">
+    <img src="Female-Managers.jpg" alt="Dr. Amara Johnson" class="manager-photo" style="max-width: 200px; height: auto;">
+    <h3>Dr. Amara Johnson</h3>
+    <p style="color: teal; font-size: 18px;"><b>Chief Operations Manager</b></p>
+    <p>Dr. Amara Johnson brings over <u>15 years of experience</u> in healthcare operations and pharmaceutical development to Eloheh. As our Chief Operations Manager, she oversees the <b>strategic implementation</b> of our injectable and oral medication programs. Dr. Johnson holds an MBA in Healthcare Management from Northwestern University and a PharmD from Howard University. Her expertise in <i>regulatory compliance</i> and quality assurance has been instrumental in bringing our life-saving treatments from laboratory to market. She leads our cross-functional teams with a focus on <b style="color: blue;">patient-centered innovation</b> and operational excellence.</p>
+  </div>
 
-  <div class="team-member">
-    <h2>Dr. Randy Woodley - Co-Founder</h2>
-    <img src= "male doctor.jpg" alt="Randy Woodley" style="max-width: 400px; margin-top: 20px;">
-    <p class="highlight"><b><i>Visionary. Leader. Author.</i></b></p>
-    <p>Dr. Woodley brings <u>decades</u> of experience in Native American wisdom, theology, and community development. He guides Eloheh with <span class="special">deep values</span> and an unshakable commitment to Indigen
+  <!-- Manager 2: Male HR Representative -->
+  <div class="manager-card clearfix">
+    <img src="Male exec.jpg" alt="Michael Chen" class="manager-photo" style="max-width: 200px; height: auto;">
+    <h3>Michael Chen</h3>
+    <p style="color: teal; font-size: 18px;"><b>Director of Human Resources & Talent Development</b></p>
+    <p>Michael Chen serves as our Director of Human Resources, where he champions <u>inclusive leadership</u> and employee development across all Eloheh divisions. With a Master's degree in Organizational Psychology and <b>12 years of experience</b> in healthcare HR, Michael specializes in building diverse, high-performing teams that drive our mission forward. He oversees talent acquisition, employee engagement, and <i>leadership development programs</i> for our growing workforce of over 500 healthcare professionals. His innovative approach to <b style="color: blue;">collaborative team building</b> has resulted in industry-leading employee satisfaction scores and retention rates.</p>
+  </div>
+
+  <!-- Manager 3: Male Global Lead -->
+  <div class="manager-card clearfix">
+    <img src="Head of HR.jpg" alt="Dr. Ogachi Okonkwo" class="manager-photo" style="max-width: 200px; height: auto;">
+    <h3>Dr. Ogachi Okonkwo</h3>
+    <p style="color: teal; font-size: 18px;"><b>Global Strategy & Market Expansion Lead</b></p>
+    <p>Dr. Ogachi Okonkwo leads Eloheh's international expansion efforts as our Global Strategy & Market Expansion Lead. With a background in <u>international business development</u> and a PhD in Biomedical Engineering, Dr. Okonkwo has successfully launched our products in over <b>25 countries</b> worldwide. He coordinates with regulatory bodies across different markets to ensure our <i>innovative healthcare solutions</i> meet global standards while maintaining our commitment to safety and efficacy. His strategic vision has positioned Eloheh as a <b style="color: blue;">trusted global partner</b> in advancing healthcare accessibility and technology integration.</p>
+  </div>
+
+  <!-- Leadership Traits Section -->
+  <div class="leadership-traits">
+    <h2>Our Top 5 Leadership Traits</h2>
+    <ol>
+      <li><b>Patient-Centered Vision</b> - Every decision prioritizes patient safety and healthcare outcomes</li>
+      <li><b>Collaborative Innovation</b> - Fostering teamwork across disciplines to drive breakthrough solutions</li>
+      <li><b>Ethical Integrity</b> - Maintaining the highest standards of transparency and regulatory compliance</li>
+      <li><b>Adaptive Excellence</b> - Embracing change and continuous improvement in our rapidly evolving industry</li>
+      <li><b>Global Perspective</b> - Understanding diverse healthcare needs across international markets</li>
+    </ol>
+  </div>
+
+  <!-- Skills Section -->
+  <div class="skills-section">
+    <h2>Top 3 Skills We Boast as Leaders in Healthcare Management</h2>
+    <ul>
+      <li><b style="color: teal;">Strategic Healthcare Innovation</b> - Transforming cutting-edge research into real-world medical solutions that improve patient lives</li>
+      <li><b style="color: teal;">Regulatory Excellence</b> - Navigating complex global pharmaceutical regulations while maintaining accelerated development timelines</li>
+      <li><b style="color: teal;">Cross-Functional Team Leadership</b> - Building and managing diverse teams of scientists, clinicians, and business professionals to achieve common goals</li>
+    </ul>
+  </div>
+
+  <!-- Download Section -->
+  <div class="download-section">
+    <h3 style="color: blue;">Learn More About Healthcare Leadership</h3>
+    <p>Download our comprehensive guide on leadership principles in healthcare management:</p>
+    <p>
+      <a href="leadership in healthcare.pdf" download style="background-color: teal; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">
+        📄 Download Leadership in Healthcare Guide
+      </a>
+    </p>
+  </div>
+
+  <!-- External Resource -->
+  <div style="text-align: center; margin: 30px 0;">
+    <p>For additional insights into healthcare leadership best practices, visit this comprehensive resource:</p>
+    <p>
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3725246/" target="_blank" rel="noopener noreferrer" style="color: blue; font-size: 18px;">
+        📚 Healthcare Leadership Research & Best Practices
+      </a>
+    </p>
+  </div>
+
+  <!-- Contact Information -->
+  <h2 style="text-decoration: underline;">Contact Me</h2>
+  <p>
+    Have questions about our leadership team or want to learn more? 
+    <a href="mailto:paramorefanabc@gmail.com" class="contact-link">Contact me directly</a> 
+    for more information about Eloheh's management structure and leadership philosophy.
+  </p>
+
+  <!-- Footer -->
+  <footer style="margin-top: 40px; padding-top: 20px; border-top: 2px solid teal; text-align: center;">
+    <p><b><i>Page last modified on: <script>document.write(document.lastModified);</script></i></b></p>
+  </footer>
+
+</body>
+</html>
